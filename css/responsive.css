@@ -3,164 +3,229 @@
 /****************************************** */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
 @media (min-width: 768px) and (max-width: 991px) {
 	#mainNav {
 		background-color: #333333;
 	}
-	.navbar-dark .navbar-brand{
+
+	.navbar-dark .navbar-brand {
 		width: 55%;
 	}
-	.navbar-dark .navbar-nav .nav-link::after{
+
+	.navbar-dark .navbar-nav .nav-link::after {
 		display: none;
 	}
-	.navbar-dark .navbar-toggler{
-		color: rgba(255,255,255);
-		border-color: rgba(255,255,255);
+
+	.navbar-dark .navbar-toggler {
+		color: rgba(255, 255, 255);
+		border-color: rgba(255, 255, 255);
 	}
-	.heading h1{
+
+	.heading h1 {
 		font-size: 28px;
 	}
-	.heading p{
+
+	.heading p {
 		font-size: 14px;
 	}
-	.cd-headline.clip span{
+
+	.cd-headline.clip span {
 		font-size: 20px;
 	}
-	.section-title h3{
+
+	.section-title h3 {
 		font-size: 28px;
 	}
-	.section-title p{
+
+	.section-title p {
 		font-size: 14px;
 	}
-	#clouds{
+
+	#clouds {
 		margin-top: -35%;
 	}
-	.message-box{
+
+	.message-box {
 		margin-bottom: 30px;
 	}
-	.filter-button-group button{
+
+	.filter-button-group button {
 		padding: 12px 27px;
 	}
-	.filter-button-group{
+
+	.filter-button-group {
 		text-align: center !important;
 	}
-	.post-box{
+
+	.post-box {
 		margin-bottom: 30px;
 	}
-	.footer-distributed .footer-left{
+
+	.footer-distributed .footer-left {
 		text-align: center;
 	}
 }
+
 @media (max-width: 767px) {
 	#mainNav {
 		background-color: #333333;
 	}
-	.navbar-dark .navbar-brand{
+
+	.navbar-dark .navbar-brand {
 		width: 55%;
 	}
-	.navbar-dark .navbar-nav .nav-link::after{
+
+	.navbar-dark .navbar-nav .nav-link::after {
 		display: none;
 	}
-	.navbar-dark .navbar-toggler{
-		color: rgba(255,255,255);
-		border-color: rgba(255,255,255);
+
+	.navbar-dark .navbar-toggler {
+		color: rgba(255, 255, 255);
+		border-color: rgba(255, 255, 255);
 	}
-	.heading h1{
+
+	.heading h1 {
 		font-size: 28px;
 	}
-	.heading p{
+
+	.heading p {
 		font-size: 14px;
 	}
-	.cd-headline.clip span{
+
+	.cd-headline.clip span {
 		font-size: 20px;
 	}
-	.section-title h3{
+
+	.section-title h3 {
 		font-size: 28px;
 	}
-	.section-title p{
+
+	.section-title p {
 		font-size: 14px;
 	}
-	#clouds{
+
+	#clouds {
 		margin-top: -35%;
 	}
-	.message-box{
+
+	.message-box {
 		margin-bottom: 30px;
 	}
-	.filter-button-group button{
+
+	.filter-button-group button {
 		padding: 12px 27px;
 	}
-	.filter-button-group{
+
+	.filter-button-group {
 		text-align: center !important;
 	}
-	.post-box{
+
+	.post-box {
 		margin-bottom: 30px;
 	}
-	.footer-distributed .footer-left{
+
+	.footer-distributed .footer-left {
 		text-align: center;
 	}
 }
+
 @media only screen and (min-width: 280px) and (max-width: 599px) {
 	#mainNav {
 		background-color: #333333;
 	}
-	.navbar-dark .navbar-brand{
+
+	.navbar-dark .navbar-brand {
 		width: 55%;
 	}
-	.navbar-dark .navbar-nav .nav-link::after{
+
+	.navbar-dark .navbar-nav .nav-link::after {
 		display: none;
 	}
-	.fat-nav li{
+
+	.fat-nav li {
 		float: none;
 		width: 100%;
 	}
-	.heading h1{
+
+	.heading h1 {
 		font-size: 28px;
 	}
-	.heading p{
+
+	.heading p {
 		font-size: 14px;
 	}
-	.cd-headline.clip span{
+
+	.cd-headline.clip span {
 		font-size: 20px;
 	}
-	.section-title h3{
+
+	.section-title h3 {
 		font-size: 28px;
 	}
-	.section-title p{
+
+	.section-title p {
 		font-size: 14px;
 	}
-	#clouds{
+
+	#clouds {
 		margin-top: -35%;
 	}
-	.message-box{
+
+	.message-box {
 		margin-bottom: 30px;
 	}
-	.filter-button-group button{
+
+	.filter-button-group button {
 		padding: 12px 27px;
 	}
-	.filter-button-group{
+
+	.filter-button-group {
 		text-align: center !important;
 	}
-	.post-box{
+
+	.post-box {
 		margin-bottom: 30px;
 	}
-	.footer-distributed .footer-left{
+
+	.footer-distributed .footer-left {
 		text-align: center;
 	}
-	.message-box h2{
+
+	.message-box h2 {
 		font-size: 28px;
 	}
-	
-	.skillbar-title{
-		display: none;
+
+	.skill-bar-percent {
+		position: absolute;
+		right: 10px;
+		top: 0;
+		font-size: 13px;
+		height: 35px;
+		line-height: 35px;
+		color: #ffffff;
+		color: #333333;
+		left: 92%;
 	}
-	.heading{
+
+	.skillbar-title {
+		/* display: ; */
+	}
+
+	.skillbar-bar {
+		width: 70%;
+	}
+
+	.heading {
 		vertical-align: bottom;
 	}
-	.pricingTable{
+
+	.pricingTable {
 		margin-bottom: 30px;
 	}
-	.fat-nav li{
+
+	.fat-nav li {
 		font-size: 18px;
 	}
-	
+
 }
